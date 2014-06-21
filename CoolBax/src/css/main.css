@@ -1,0 +1,316 @@
+body{
+    background-color: #cccccc;
+}
+
+h4 a{
+	background-color: orange;
+	position: relative;
+	float: right;
+	margin-top: -50px;
+}
+
+h4 a{
+	color: white;
+}
+
+h4 a:hover{
+	color: blue;
+	font: Italic;
+}
+
+#mainTabs{
+    width: 900px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 330px;
+    margin-bottom: 0px;
+}
+
+#mainTabsBackGround{
+    background-color: black;
+    width: auto;
+    margin-top: 50px;
+}
+
+#sideTabs{
+    width: 331px;
+    position: absolute;
+    margin-top: 80px;
+}
+
+
+#article{
+    background-color: blue;
+    width: 900;
+    height: auto;
+    margin-left: 100px;
+
+}
+
+#childArticle{
+    background-color: #ccc;
+    position: relative;
+    border: solid;
+    border-radius: 5px;
+    border-width: 4px;
+    color: black;
+    width: 800px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+#accordion{
+    width: 350px;
+    height: 600px;
+    margin-top: 80px;
+    margin-left: 1220px;
+    position: absolute;
+}
+
+.ui-accordion{ width: 350px;}
+
+#accordionBackground{
+    
+}
+
+.ui-tabs-vertical { width: 18.3em; margin-top: 80px; }
+.ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 18em; }
+.ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+.ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; border-right-width: 1px; }
+.ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: right; width: 40em;}
+
+/* profile tab begin*/
+
+#childArticle input{
+    background-color: #EDEDED;
+    margin-right: 200px;
+	border-radius: 5px;
+	float: right;
+}
+
+#childArticle textarea{
+    background-color: #EDEDED;
+    margin-right: 200px;
+    marging-top: 30px;
+	border-radius: 5px;
+	float: right;
+}
+
+#childArticle strong{
+    margin-left: 10px;
+}
+
+#profilePhoto{
+	position:absolute;
+	float: right;
+	width: 135px;
+	height: 160px;
+	left: 50px;
+	background-color: blue;
+	border: solid;
+	border-radius: 5px;
+	border-width: 3px;
+	border-color: black;
+}
+
+.profileImageArea{
+	width: 135px;
+	height: 160px;
+}
+
+.inputWrapper {
+	border-radius: 5px;
+	text-align: center;
+	float: right;
+	left: 300px;
+	margin-top: 60px;
+    height: 32px;
+    width: 120px;
+    overflow: hidden;
+    position: absolute;
+    cursor: pointer;
+    /*Using a background color, but you can use a background image to represent a button*/
+    background-color: #EDEDED;
+}
+.fileInput {
+    cursor: pointer;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    left: 10;
+    z-index: 99;
+    /*This makes the button huge. If you want a bigger button, increase the font size*/
+    font-size:50px;
+    /*Opacity settings for all browsers*/
+    opacity: 0;
+    -moz-opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0)
+}
+
+.fileSubmit{
+	margin-top: 60px;
+    height: 32px;
+    width: 80px;
+    left: 430px;
+    position: absolute;
+ 	background-color: #E6E6E6;
+}
+
+.edit{  
+     position: absolute;
+     left: 630px;
+     
+}
+
+.save{  
+	 display: none;
+     position: absolute;
+     left: 630px;  
+}
+
+.cancel{
+	display: none;
+	position: absolute;
+    left: 695px; 
+}
+
+#errors{
+	color:red;
+	font:italic;
+	font-size: 22px;
+}
+
+/*profile tab end*/
+
+
+/*friend tab begin*/
+
+.friendPhoto{
+	position:absolute;
+	width: 80px;
+	height: 100px;
+	margin-left: 50px;
+	background-color: blue;
+	border: solid;
+	border-radius: 5px;
+	border-width: 3px;
+	border-color: black;
+}
+
+.friendLink{
+	position: absolute;
+	margin-left: 150px;
+	margin-top: 35px;
+	color: 1BA0E3;
+}
+
+.friendLink:hover{
+	color: black;
+}
+
+.friendSetting{
+	 position: absolute;
+	 margin-top: 35px;
+     left: 300px;
+     border-radius: 5px;
+}
+
+.endFriendship{
+	 position: absolute;
+	 margin-top: 35px;
+     left: 395px;
+     border-radius: 5px;
+}
+
+.friendProfileImageArea{
+	width: 80px;
+	height: 100px;
+}
+
+.onlineUserLink{
+	cursor: pointer;
+}
+
+.onlineUserLink:hover{
+	color: #02EDC2;
+}
+
+/*friend tab end*/
+
+/*custom tooltip begin*/
+
+div.ui-tooltip {
+    max-width: 250px;
+}
+
+.ui-tooltip, .arrow:after {
+    background: black;
+    border: 2px solid white;
+}
+.ui-tooltip {
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    font: bold 14px "Helvetica Neue", Sans-Serif;
+    text-transform: uppercase;
+    box-shadow: 0 0 7px black;
+}
+.arrow {
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    bottom: -16px;
+}
+.arrow.top {
+    top: -16px;
+    bottom: auto;
+}
+.arrow.left {
+    left: 20%;
+}
+.arrow:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    width: 25px;
+    height: 25px;
+    box-shadow: 6px 5px 9px -9px black;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    tranform: rotate(45deg);
+}
+.arrow.top:after {
+    bottom: -20px;
+    top: auto;
+}
+/*custom tooltip end*/
+
+
+/*chat begin*/
+
+.chatDialog{
+	display: none;
+}
+
+.chatArea{
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 198px;
+	width: auto;
+	background-color: silver;
+	border-radius:5px;
+}
+
+.chatInput{
+	border-radius:5px;
+}
+
+/*chat end*/

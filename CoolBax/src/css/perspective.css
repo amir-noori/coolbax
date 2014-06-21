@@ -1,0 +1,15 @@
+
+#shareData{
+	height: 100px;
+	width: 700px;
+    color: #7E6E96;
+    left: 100px;
+    position: absolute;
+    left: 10px;
+}
+
+#shareButton{
+	position: relative;
+    margin-top: 58.5px;
+    margin-left: 12px;
+}
