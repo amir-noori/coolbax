@@ -14,7 +14,7 @@
 		{
 			try 
 			{
-				$this->PDOF = PDOFactory::getPDO('mysql:host=localhost;port=3306;dbname=coolbax;charset=UTF-8' , 'root' , '55705968' , array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\''));
+				$this->PDOF = PDOFactory::getPDO('mysql:host=localhost;port=3306;dbname=coolbax;charset=UTF-8' , 'root' , '' , array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\''));
 		
 			}
 			catch(PDOException $e)
